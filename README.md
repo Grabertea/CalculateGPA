@@ -10,7 +10,6 @@
 9. [License](#license)  
 <br>
 
-
 # GPA Calculator <a name="intro"></a>  
 This is a simple program that calculates your semster and/or cumulative GPA based
 on your grades in the courses you took and how many hours the  various courses are.
@@ -44,30 +43,61 @@ On the window that opens, click on the Run tab and select "run module".
 
 ### Step 2
 
+You will be asked if it is you first semester. Type "y" for yes and "n" for no.
+```python
+Is this your first semester (y/n)? 
+```
 
+If you entered "y", the program will jump to Step 3.
+
+If you entered "n", then you will be futher prompted to enter your total number of earned credits, and your current cumulative GPA.
+
+```python
+Is this your first semester (y/n)? n
+Enter total number of earned credits: 65
+Enter your current cumulative GPA: 3.65
+```
 
 ### Step 3
 
-
+Enter the letter grade (A-F) you recieved for a specific course. See [Notes.](#notes)
+```python
+Enter grade (hit Enter if done): A
+```
 
 ### Step 4
 
-
+For the letter grade you entered in Step 3, enter the number of credit hours for that course.
+```python
+Enter number of credits: 3
+```
 
 ### Step 5
 
-Repeat Steps 3 and 4 for however many courses you have, then hit the ENTER key. 
+Repeat Steps 3 and 4 for your remaining courses, then hit the ENTER key when prompted to enter your next letter grade.
+Once you hit ENTER, your semester GPA and new cumulative GPA will be printed out.
+```python
+Enter grade (hit Enter if done): A
+Enter number of credits: 3
+Enter grade (hit Enter if done): B
+Enter number of credits: 4
+Enter grade (hit Enter if done): C
+Enter number of credits: 3
+Enter grade (hit Enter if done): A
+Enter number of credits: 4
+Enter grade (hit Enter if done): F
+Enter number of credits: 1
+Enter grade (hit Enter if done): 
 
-### Step 6
-
-### Step 7
- 
-
+Your semester GPA is 3.07
+Your new cumulative GPA is 3.54
+```
 <br> 
 
 ## Notes <a name="notes"></a>  
 * This does not support letter grades with a +/-, such as A+, C-, etc. 
-* Hitting Enter at the beginning of step 3 without adding a grade will cause the program to crash. 
+* Hitting Enter at the beginning of step 3 without adding a grade will cause the program to crash.
+* If this is your first semester, your semester and cumulative GPA will be the same.
 <br>  
 
 ## Troubleshooting <a name="trouble"></a>  
