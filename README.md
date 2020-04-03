@@ -33,7 +33,6 @@ Unzip the zip file using WinRAR or 7Zip.
 ### Step 1
 
 Open up an IDLE shell from your python installation. Click on the File tab, and select "open".
-
 <img src="https://i.imgur.com/bSr1qgm.png">
 Navigate to where the CalculateGPA.py file is located on your machine. Select it and click the open button.
 
