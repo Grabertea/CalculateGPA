@@ -1,5 +1,3 @@
-# GPA Calculator
-
 # Table of Contents
 1. [Introduction](#intro)
 2. [Requirements](#requirements)
